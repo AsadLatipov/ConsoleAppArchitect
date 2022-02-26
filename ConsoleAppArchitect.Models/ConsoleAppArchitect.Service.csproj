@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleAppArchitect.Data\ConsoleAppArchitect.Data.csproj" />
+    <ProjectReference Include="..\ConsoleAppArchitect.Domain\ConsoleAppArchitect.Domains.csproj" />
+  </ItemGroup>
+
+</Project>
